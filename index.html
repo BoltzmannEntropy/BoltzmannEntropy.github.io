@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="windows-1252">
+    <title>Shlomo Kashani</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="stylesheet" type="text/css" href="styles_personal.css"--> 
+</head>
+
+<style>
+    body {
+        background-color: #ffffff;
+        margin-left:10%;
+        margin-top:2%;
+        margin-right:10%
+    }
+
+    body, h1, h2, h3, p {
+        font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin: 0 0 20px 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    em {
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    small {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    a {
+        color: #3282e6;
+        text-decoration: none;
+    }
+    
+    table {
+        width: 95%;
+    }
+
+    th {
+        padding-bottom: 10px;
+    }
+
+    td {
+        vertical-align: top;
+        padding: 8px; 
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    #tight_table td {
+        vertical-align: top;
+        padding: 0 8px 0 0; 
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+/* ******************Style the tab****************************************** */
+    .tab {
+        
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    .tab button.active {
+        background-color: #ccc;
+    }
+
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        white-space: normal;
+    }   
+
+/* ******************Style the Flexbox*************************************** */
+
+    .left {
+        float: left;
+        padding: 0px 30px 10px 10px;
+    }
+    
+    .right {
+        float: right;
+        padding: 0px 10px 10px 10px;
+    }
+
+/* ******************Style the Abstracts************************************* */
+
+    .abstract {
+        color: #3282e6;
+        text-decoration: none;
+    }
+    
+    .abstract_content {
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 20px;
+        display: none;
+    }
+
+    
+/* ****************************Toggle Mobile/Desktop************************* */
+    #content_desktop {display: block;}
+    #content_mobile {display: none;}
+
+    @media screen and (max-width: 900px) {
+        body, h1, h2, h3, p {width: 95%; margin: auto;}
+        h2 {font-size: 140%; margin: 20px 0 20px 0;}
+        p {font-size: 100%; margin: 0 0 20px 0;}
+        tabcontent {border: 0px none;}
+        td:nth-child(4) {display:none;}
+        td:nth-child(5) {display:none;}
+        #content_desktop {display: none;}
+        #content_mobile {display: block;}
+    }
+    
+</style>
+
+<body>
+    <div id="content_desktop">
+<!--        <img src="img/pee.png" alt="Boxes" class="left" height="110px">-->
+        <img src="img/spiculated_lung.gif" class="left" height="100x"/>
+        <img src="img/fisher.png" alt="Boxes" class="right" height="100px">
+        <h1>Shlomo Kashani, MSc</h1>
+        <em>Author and research scientist</em>
+        <BR>
+        <BR>
+        <BR>
+    </div>
+
+<!-------------------------------TAB BUTTONS----------------------------------->
+
+    <div class="tab" style="text-align: center">
+        <button class="tablinks" onclick="openTab(event, 'Bio')" id="defaultOpen">Biography</button>
+        <button class="tablinks" onclick="openTab(event, 'Pubs')">Publications</button>
+<!--        <button class="tablinks" onclick="openTab(event, 'Pres')">Presentations</button>-->
+<!--        <button class="tablinks" onclick="openTab(event, 'Teach')">Teaching</button>-->
+<!--        <button class="tablinks" onclick="openTab(event, 'Proj')">Projects</button>-->
+<!--        <button class="tablinks" onclick="openTab(event, 'Conf')">Conferences</button>-->
+    </div>
+
+<!--------------------------------BIOGRAPHY TAB-------------------------------->
+    <div id="Bio" class="tabcontent">
+        <BR>
+        <div id="content_desktop">
+            <img src="img/Shlomo.jpg" class="left" width="300px"/>
+        </div>
+
+        <p> Starting a theme that would continue to be followed down the line, ever since I first became enamored with the theory of statistical signal processing,
+            I studied algorithms that help detect disease. I’ve been privileged enough to contribute to the pursuit over the course of my industrial career,
+            particularly in applying Deep Learning techniques to the fields of Radiology, Oncology, and Ophthalmology.
+            <br>
+            <br>
+            When a goal is this far-reaching, it’s vital to keep in mind various paths to the ultimate end.
+            My current research spreads over the intersection of machine learning, embedded systems, photonics and artificial intelligence.
+            Investigating the interaction of photons with a phantom (an artificial tissue-mimicking material), I am currently aiding in the simulation of an innovative medical photonic device joining deep learning, spectroscopy and optics.
+            Allowing point-of-care diagnostics in a single portable, optical device where the result of a day’s work is wholly tangible, I believe, is of direct benefit to people in enhancing their lives.
+        </p> <p>
+            I frequently leverage DL and probabilistic programming in the work I do, where the extraordinary prospect of precise tumour characterisation becomes evident.
+            Drawing broadly on the principle of Convolutional Neural Networks (CNNs) unique features are automatically extracted from medical images.
+            Unlike biopsy however, deep learning involves analysis of medical data and is non-invasive, providing information on an entire tumour.
+
+<!--            Furthermore, advances in Graphical Processing Units (GPUs) and drawing on data from huge medical imaging databases, means accelerated and more accurate learning of tumour features is now a reality.-->
+        <p>Many researchers realize how essential it is to provide the healthcare community with unconventional computing-power to conduct their research: to maximize prognosis, prevention, and early disease detection.
+        Through graduate academic studies in the field of <em>quantum physics, photonics, and artificial intelligence (AI)</em>,
+        numerous researchers participate in the fight against cancer by continually searching for new breakthroughs, e.g., by utilizing quantum computing for the discovery
+        and exploration of novel drugs, or by developing an innovative handheld photonic diagnostic instrument joining AI algorithms and optics.
+        <br> </br>Moreover, the AI community has broadly acknowledged the integration of quantum computing technologies as revolutionary, a phenomenon which is also reflected in the high number of
+        <a href="https://quantiki.org/jobs?field_job_type_tid%5B%5D=625" target="_blank">current job openings</a>  and international research facilities dedicated to the use of quantum computing.
+
+         A catalyst for this phenomenal growth is the simultaneous evolution of quantum computing hardware, software tools and AI algorithms.</p>
+<!--        <p>You can find out more about me on <a href="https://scholar.google.com/citations?user=7-LN-vIAAAAJ&amp;hl=en&amp;oi=ao" target="_blank">Google Scholar</a>, <a href="https://philpeople.org/profiles/carlos-zednik" target="_blank">PhilPapers</a>, <a href="https://publons.com/author/466050/carlos-zednik#profile" target="_blank">Publons</a>, and <a href="https://twitter.com/CarlosZednik" target="_blank">Twitter</a>.</p>-->
+        <hr>
+        <br>
+        <h3>Education:</h3>
+<!--        <p>-->
+<!--            <em>MSc in Physics (Spring 2022-present)</em>-->
+<!--            <img src="img/jhu.png" class="left" width="230px"/>-->
+<!--        <br>Though I use <em>classical</em> information theoretic approaches in my research, I also wanted to investigate the inner-workings of <i>quantum</i> information processing which is richer and more intricate than its traditional counterpart.-->
+<!--            In this tailor-made study path that I had chosen, <em>extensive background in quantum physics is mandatory.</em>-->
+<!--            <br>-->
+<!--            I believe that higher education in quantum physics is crucial to realizing one's ambition to becoming an applied researcher in quantum computing algorithms,-->
+<!--            where theory, experimentation and the quantum properties of light, go hand in hand.-->
+<!--            <br><BR>&#9758; <a href="https://apps.ep.jhu.edu/course-homepages/2722-615-654-quantum-mechanics" target="_blank">Programme</a>-->
+<!--        </p>-->
+        <p>
+            <em>MSc (Distinction) in Digital Signal Processing (2005-2006)</em>
+            <img src="img/queen.png" class="left" width="230px"/>
+            <br>  <i>M.S Thesis (18, 000 words), A phase-only correlation based iris recognition system. </i>
+            <br>
+            <BR>&#9758; <a href="http://eecs.qmul.ac.uk/" target="_blank">Programme</a>
+        </p>
+        <br>
+
+        <br>
+    </div>
+
+    <div id="Pubs" class="tabcontent">
+        <br>
+<!--        <p>&#9758;&nbsp;See my <a href="https://scholar.google.com/citations?hl=en&amp;user=7-LN-vIAAAAJ" target="_blank">Google Scholar</a> profile for citation metrics.</p>-->
+        <br>
+        <p>
+            Shlomo Kashani (2020)
+            <img src="img/droput2-ans.png" class="left" width="220px"/>
+            <br><em>Deep Learning Interviews book: Hundreds of fully solved job interview questions from a wide range of key topics in AI.</em>
+            <br><i>On Amazon ISBN 13: 978-1-9162435-4-5</i>
+            <br><i>URL(PDF): <a href="https://github.com/BoltzmannEntropy/interviews.ai"> download</a></i>
+            <br><small><span class="abstract" onclick="displayAbstract(0)">Abstract</span>&emsp;&emsp;<a href="https://www.amazon.com/Deep-Learning-Interviews-interview-questions/dp/1916243568/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=" target="_blank">Book</a>&emsp;&emsp;</small>
+        <p class="abstract_content" style="display:none;">The second edition of Deep Learning Interviews (The Amazon Softcover is printed in B&W) is home to hundreds of fully-solved problems, from a wide range of key topics in AI. It is designed to both rehearse interview or exam specific topics and provide machine learning M.Sc./Ph.D. students, and those awaiting an interview a well-organized overview of the field. The problems it poses are tough enough to cut your teeth on and to dramatically improve your skills-but they’re framed within thought-provoking questions and engaging stories.
+        That is what makes the volume so specifically valuable to students and job seekers: it provides them with the ability to speak confidently and quickly on any relevant topic, to answer technical questions clearly and correctly, and to fully understand the purpose and meaning of interview questions and answers. Those are powerful, indispensable advantages to have when walking into the interview room.
+        The book’s contents is a large inventory of numerous topics relevant to DL job interviews and graduate level exams. That places this work at the forefront of the growing trend in science to teach a core set of practical mathematical and computational skills. It is widely accepted that the training of every computer scientist must include the fundamental theorems of ML, and AI appears in the curriculum of nearly every university. This volume is designed as an excellent reference for graduates of such programs.
+        </p>
+        <br>
+        <br>
+        <br>
+        <p>
+            Or Katz, Dan Presil, Liz Cohen, Yael Schwartzbard, Sarah Hoch, Shlomo Kashani (2019)
+            <img src="img/lungs.png" class="left" width="220px"/>
+            <br><em>Pulmonary-Nodule Detection Using an Ensemble of 3D SE-ResNet18 and DPN68 Models.</em>
+            <br><i>Image Analysis and Recognition (pp.378-385) </i>, DOI: 10.1007/978-3-030-50516-5_33
+            <br><i>17th International Conference on Image Analysis and Recognition ICIAR 2020 </i>
+            <br><small><span class="abstract" onclick="displayAbstract(1)">Abstract</span>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Article</a>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Preprint</a></small>
+        <p class="abstract_content" style="display:none;">This short paper describes our contribution to the LNDb - Grand Challenge on automatic lung cancer patient management. We only participated in Sub-Challenge A: Nodule Detection. The officially stated goal of this challenge is From chest CT scans, participants must detect pulmonary nodules. We developed a computer-aided detection (CAD) system for the identification of small pulmonary nodules in screening CT scans. The two main modules of our system consist of a CNN based nodule candidate detection, and a neural classifier for false positive reduction. The preliminary results obtained on the challenge database is discussed. In this work, we developed an Ensemble learning pipeline using state of the art convolutional neural networks (CNNs) as base detectors. In particular, we utilize the 3D versions of SE-ResNet18 and DPN68. Much like classical bagging, base learners were trained on 10 stratified data-set folds (the LUNA16 patient-level dataset splits) generated by bootstrapping both our training set (LUNA16) and the challenge provided training set.
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>
+            Shlomo Kashani (2006)
+            <img src="img/thesis2.png" class="left" width="220px"/>
+            <br><em>A phase-only correlation based iris recognition system.</em>
+            <br><i>Department of Electronic Engineering, University of London, 2006.</i>
+            <br><small><span class="abstract" onclick="displayAbstract(2)">Abstract</span>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Article</a>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Preprint</a></small>
+        <p class="abstract_content" style="display:none;">Researched and implemented an iris recognition system based on the phase-only correlation algorithm in MATLAB and C++.
+        Algorithms realized included Gabor Wavelet, Circular Hough Transform, optimized Gaussian filters, cross-phase correlator and the Canny Edge detector.
+        (received distinction for my work on iris recognition).
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+        
+<!-------------------------------PRESENTATIONS TAB----------------------------->
+    <div id="Pres" class="tabcontent">
+        <table id="tight_table">
+        <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="5"><em>Upcoming Talks</em><BR>&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        </tbody>
+        </table>
+    </div>
+
+<!------------------------------------TEACHING TAB----------------------------->
+    <div id="Teach" class="tabcontent">
+        <table id="tight_table">
+        <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="3"><em>Current Teaching</em></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        </tbody>
+        </table>
+        
+        <br><br>
+        <p></p>
+        
+    </div> 
+
+<!-------------------------------------------------JAVASCRIPT----------------->
+    <script>
+        // Open tab tabName after clicking on the relevant button.
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+
+            // Hide all tabs
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+        // Deactivate all buttons
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show current tab, and activate the button that opened it
+        document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        } 
+
+        // Click on default button
+        document.getElementById("defaultOpen").click();
+        
+        function displayAbstract(articleID) {
+            var button = document.getElementsByClassName("abstract");
+            var content = document.getElementsByClassName("abstract_content");
+            if (content[articleID].style.display == "none") {
+//                button[articleID].innerHTML = "Hide Abstract";
+                content[articleID].style.display = "block";
+            } else {
+//                button[articleID].innerHTML = "Show Abstract";
+                content[articleID].style.display = "none";
+            }
+        }
+    
+    </script>
+
+</body>
+</html>

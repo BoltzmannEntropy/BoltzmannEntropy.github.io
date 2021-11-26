@@ -1,2 +1,0 @@
-# BoltzmannEntropy.github.io
-Home
