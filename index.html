@@ -1,386 +1,271 @@
-<!DOCTYPE html>
-<html>
 
-<head><meta charset="windows-1252">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
     </script>
-    <title>SpinQuant</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--link rel="stylesheet" type="text/css" href="styles_personal.css"--> 
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>OnePagers - Free Gradient single-page website template</title>
+ 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet"> 
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/onepagers-gradient.css" rel="stylesheet">
+    <link href="./css/gradients.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#topnav">
+    <!-- MAIN CONTAINER -->
+    <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top" id="topnav">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+<!--            <a class="navbar-brand" href="#">SPINQUANT</a>-->
+            <img src="img/spin-white.svg" alt="QuantSpin" class="left" height="300px">
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#section1">Home</a></li>
+<!--              <li><a href="#section2">The Gradients</a></li>-->
+<!--              <li><a href="#section3">The Theme</a></li>-->
+<!--              <li><a href="#section4">Contact Us</a></li>-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
 
-<style>
-    body {
-        background-color: #ffffff;
-        margin-left:10%;
-        margin-top:2%;
-        margin-right:10%
-    }
+    <div class="container-fluid">
+      <!-- START SECTION 1 -->
+      <div class="row">
+        <div class="col-md-12 leadsection innershadow mirage" id="section1">
 
-    body, h1, h2, h3, p {
-        font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
-        font-weight: 300;
-    }
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-10">
 
-    h1 {
-        font-size: 48px;
-        margin: 0 0 20px 0;
-    }
+          <!-- START SECTION 1 CONTENT -->
+          <h2>\(|\mathbf{\psi} \rangle = \cos \tfrac{\theta}{2} \cdot |\mathbf{0} \rangle + e^{j \varphi} \sin \tfrac{\theta}{2} \cdot |\mathbf{1} \rangle.\)<br></h2>
+          <h1>QUANTSPIN quantum.</h1><br>
 
-    h2 {
-        font-size: 24px;
-        margin: 0 0 20px 0;
-    }
+          <p class="lead">Many researchers realize how essential it is to provide the healthcare community with </p>
+          <p class="lead">unconventional computing-power to conduct their research: to maximize prognosis, prevention, </p>
+          <p class="lead">and early disease detection.</p> <br>
 
-    h3 {
-        font-size: 24px;
-        margin: 0 0 20px 0;
-        font-weight: bold;
-    }
+          <p class="lead">Through research in the field of <em>quantum physics,</em> </p>
+          <p class="lead">optics, and artificial intelligence (AI)</em>  SpinQuant is continually searching for new breakthroughs,</p>
+          <p class="lead">e.g., by utilizing quantum computing for the discovery and exploration of novel drugs,</p>
+          <p class="lead">and by developing an innovative handheld diagnostic instrument joining AI algorithms and optics.</p>
 
-    p {
-        font-size: 20px;
-        margin: 0 0 20px 0;
-    }
+<!--          <p class="small">For example, change <code>purple-bliss</code> to <code>purple-bliss-inverse</code>.</p>-->
 
-    em {
-        font-weight: bold;
-        font-style: normal;
-    }
-
-    small {
-        font-size: 16px;
-        font-weight: 300;
-    }
-
-    a {
-        color: #3282e6;
-        text-decoration: none;
-    }
-    
-    table {
-        width: 95%;
-    }
-
-    th {
-        padding-bottom: 10px;
-    }
-
-    td {
-        vertical-align: top;
-        padding: 8px; 
-        font-size: 16px;
-        font-weight: 300;
-    }
-
-    #tight_table td {
-        vertical-align: top;
-        padding: 0 8px 0 0; 
-        font-size: 16px;
-        font-weight: 300;
-    }
-
-/* ******************Style the tab****************************************** */
-    .tab {
-        
-        overflow: hidden;
-        border: 1px solid #ccc;
-        background-color: #f1f1f1;
-    }
-
-    .tab button {
-        background-color: inherit;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-    }
-
-    .tab button:hover {
-        background-color: #ddd;
-    }
-
-    .tab button.active {
-        background-color: #ccc;
-    }
-
-    .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
-        border-top: none;
-        white-space: normal;
-    }   
-
-/* ******************Style the Flexbox*************************************** */
-
-    .left {
-        float: left;
-        padding: 0px 30px 10px 10px;
-    }
-    
-    .right {
-        float: right;
-        padding: 0px 10px 10px 10px;
-    }
-
-/* ******************Style the Abstracts************************************* */
-
-    .abstract {
-        color: #3282e6;
-        text-decoration: none;
-    }
-    
-    .abstract_content {
-        font-size: 16px;
-        font-weight: 300;
-        margin-left: 20px;
-        display: none;
-    }
-
-    
-/* ****************************Toggle Mobile/Desktop************************* */
-    #content_desktop {display: block;}
-    #content_mobile {display: none;}
-
-    @media screen and (max-width: 900px) {
-        body, h1, h2, h3, p {width: 95%; margin: auto;}
-        h2 {font-size: 140%; margin: 20px 0 20px 0;}
-        p {font-size: 100%; margin: 0 0 20px 0;}
-        tabcontent {border: 0px none;}
-        td:nth-child(4) {display:none;}
-        td:nth-child(5) {display:none;}
-        #content_desktop {display: none;}
-        #content_mobile {display: block;}
-    }
-    
-</style>
+<!--          <p class="lead">Make sure you read the <b><a href="./README.md">README.md</a></b> document to learn how to fully customise this template</p>-->
+<!--          <p class="lead">Make sure you read the <b><a href="./README.md">README.md</a></b> document to learn how to fully customise this template</p>-->
+<!--          <p class="lead">Did this template help you? Consider donating or helping with development.</p>-->
+<!--          <p>Distributed under <a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">GNU GPLv3</a></p>-->
+            <a class="btn btn-primary btn-lg bigger-btn btn-trans" href="https://www.linkedin.com/company/80732030/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4fi1HFX6SBa8k18VjvAYtw%3D%3D"><i class="fa fa-envelope" aria-hidden="true"></i> CONTACT</a>
+<!--            <a class="btn btn-info btn-lg bigger-btn btn-trans" href="https://github.com/haydenryan/OnePagers-gradient/archive/master.zip"><i class="fa fa-file-archive-o" aria-hidden="true"></i> Download .zip<span class="btnversion">latest version: 1.0</span></a>-->
+          <!-- END SECTION 1 CONTENT -->
+        </div>
+        <div class="col-md-1">
+        </div>
 
 
-<body>
-    <div >
-<!--        <img src="img/pee.png" alt="Boxes" class="left" height="110px">-->
-<!--        <img src="img/spiculated_lung.gif" class="left" height="100x"/>-->
-        <img src="img/spin2.png" alt="QuantSpin" class="right" height="130px">
-        <h1>QUANTSPIN.<br></h1>
-        <h2>\(|\mathbf{\psi} \rangle = \cos \tfrac{\theta}{2} \cdot |\mathbf{0} \rangle + e^{j \varphi} \sin \tfrac{\theta}{2} \cdot |\mathbf{1} \rangle.\)<br></h2>
+        </div><!--/md-12 -->
+      </div><!--/row-->
+      <!-- END SECTION 1 -->
 
-        <BR>
-        <BR>
-        <BR>
-        <BR>
-    </div>
+      <!-- START SECTION 2 -->
+<!--      <div class="row">-->
+<!--      <div class="col-md-12 section nimvelo" id="section2">-->
 
-<!-------------------------------TAB BUTTONS----------------------------------->
-
-    <div class="tab" style="text-align: center">
-        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-        <button class="tablinks" onclick="openTab(event, 'Team')">Team</button>
-        <button class="tablinks" onclick="openTab(event, 'Pubs')">Publications</button>
-        <button class="tablinks" onclick="openTab(event, 'Quant')">Quantum Computing for Computer Scientists</button>
-<!--        <button class="tablinks" onclick="openTab(event, 'Teach')">Teaching</button>-->
-<!--        <button class="tablinks" onclick="openTab(event, 'Proj')">Projects</button>-->
-<!--        <button class="tablinks" onclick="openTab(event, 'Conf')">Conferences</button>-->
-    </div>
-
-<!--------------------------------BIOGRAPHY TAB-------------------------------->
-    <div id="About" class="tabcontent">
-        <BR>
-<!--        <div id="content_desktop">-->
-<!--            <img src="img/Shlomo.jpg" class="left" width="300px"/>-->
-<!--        </div>-->
-
-<!--        <p> Starting a theme that would continue to be followed down the line, ever since I first became enamored with the theory of statistical signal processing,-->
-<!--            I studied algorithms that help detect disease. I've been privileged enough to contribute to the pursuit over the course of my industrial career,-->
-<!--            particularly in applying Deep Learning techniques to the fields of Radiology, Oncology, and Ophthalmology.-->
-<!--            <br>-->
-<!--            <br>-->
-<!--            When a goal is this far-reaching, it's vital to keep in mind various paths to the ultimate end.-->
-<!--            Precise and non-invasive detection of malignancies in human tissue is a vital goal of any medical research.-->
-<!--            Optical methods, such as vibrational / Raman spectroscopy, have all been extensively investigated as ways to reach this goal.-->
-<!--        </p>-->
-<!--            <h2><em>SpinQuant</em></h2>-->
-            <p>
-            <img src="img/Front.png" class="left" width="110px"/>
-
-        Many researchers realize how essential it is to provide the healthcare community with unconventional computing-power to conduct their research: to maximize prognosis, prevention, and early disease detection.
-            Through research in the field of <em>quantum physics, photonics, and artificial intelligence (AI)</em>,
-            numerous researchers participate in the fight against cancer by continually searching for new breakthroughs, e.g., by utilizing quantum computing for the discovery
-            and exploration of novel drugs, or by developing an innovative handheld photonics diagnostic instrument joining AI algorithms and optics.
-            <br> </br>Moreover, the AI community has broadly acknowledged the integration of quantum computing technologies as revolutionary, a phenomenon which is also reflected in the high number of
-            <a href="https://quantiki.org/jobs?field_job_type_tid%5B%5D=625" target="_blank">current job openings</a>  and international research facilities dedicated to the use of quantum computing.
-
-                A catalyst for this phenomenal growth is the simultaneous evolution of quantum computing hardware, software tools and AI algorithms.</p>
-
-            <p>
-            Our current research spreads over the intersection of machine learning, embedded systems, photonics and artificial intelligence.
-            Investigating the interaction of photons with a phantom (an artificial tissue-mimicking material), we are currently simulating of an innovative medical photonics device
-            for the development of combined Raman / deep learning method for molecular tissue characterisation.
-            Allowing point-of-care diagnostics in a single portable, optical device where the result of a day's work is wholly tangible, we believe, is of direct benefit to people in enhancing their lives.
-            </p>
-
-<!--        <p>-->
-<!--            We frequently leverage DL and probabilistic programming in the work we do, where the extraordinary prospect of precise tumour characterisation becomes evident.-->
-<!--            Drawing broadly on the principle of Convolutional Neural Networks (CNNs) unique features are automatically extracted from medical images.-->
-<!--            Unlike biopsy however, deep learning involves analysis of medical data and is non-invasive, providing information on an entire tumour.-->
-<!--        </p>-->
-<!--            Furthermore, advances in Graphical Processing Units (GPUs) and drawing on data from huge medical imaging databases, means accelerated and more accurate learning of tumour features is now a reality.-->
-
-<!--        <p>You can find out more about me on <a href="https://scholar.google.com/citations?user=7-LN-vIAAAAJ&amp;hl=en&amp;oi=ao" target="_blank">Google Scholar</a>, <a href="https://philpeople.org/profiles/carlos-zednik" target="_blank">PhilPapers</a>, <a href="https://publons.com/author/466050/carlos-zednik#profile" target="_blank">Publons</a>, and <a href="https://twitter.com/CarlosZednik" target="_blank">Twitter</a>.</p>-->
-<!--        <hr>-->
-    </div>
-
-    <div id="Team" class="tabcontent">
-        <BR>
-        <!--        <div id="content_desktop">-->
-        <img src="img/Shlomo.jpg" class="left" width="300px"/>
-        <h1>Shlomo Kashani MSc.<br></h1>
-        <em><a href="https://www.amazon.com/Shlomo-Kashani/e/B08PL5LYBT/ref=dp_byline_cont_pop_book_1" target="_blank">Author</a> and research scientist.</em> <br>
-        <!--        </div>-->
-
-        <p> Starting a theme that would continue to be followed down the line, ever since I first became enamored with the theory of statistical signal processing,
-            I studied algorithms that help detect disease. I've been privileged enough to contribute to the pursuit over the course of my industrial career,
-            particularly in applying Deep Learning techniques to the fields of Radiology, Oncology, and Ophthalmology.
-            <br>
-            <br>
-            When a goal is this far-reaching, it's vital to keep in mind various paths to the ultimate end.
-            Precise and non-invasive detection of malignancies in human tissue is a vital goal of any medical research.
-            Optical methods, such as vibrational / Raman spectroscopy, have all been extensively investigated as ways to reach this goal.
-        </p>
-        <!--            I frequently leverage DL and probabilistic programming in the work I do, where the extraordinary prospect of precise tumour characterisation becomes evident.-->
-        <!--            Drawing broadly on the principle of Convolutional Neural Networks (CNNs) unique features are automatically extracted from medical images.-->
-        <!--            Unlike biopsy however, deep learning involves analysis of medical data and is non-invasive, providing information on an entire tumour.-->
-
-        <!--            Furthermore, advances in Graphical Processing Units (GPUs) and drawing on data from huge medical imaging databases, means accelerated and more accurate learning of tumour features is now a reality.-->
-
-        <br>
-        <h3>Education:</h3>
-        <!--        <p>-->
-        <!--            <em>MSc in Physics (Spring 2022-present)</em>-->
-        <!--            <img src="img/jhu.png" class="left" width="230px"/>-->
-        <!--        <br>Though I use <em>classical</em> information theoretic approaches in my research, I also wanted to investigate the inner-workings of <i>quantum</i> information processing which is richer and more intricate than its traditional counterpart.-->
-        <!--            In this tailor-made study path that I had chosen, <em>extensive background in quantum physics is mandatory.</em>-->
-        <!--            <br>-->
-        <!--            Though QC is riddled with obscurities and substantial implementation challenges, I still believe that higher education in quantum physics is crucial to realizing one's ambition to becoming an applied researcher in quantum computing algorithms,-->
-        <!--            where theory, experimentation and the quantum properties of light, go hand in hand.-->
-        <!--            <br><BR>&#9758; <a href="https://apps.ep.jhu.edu/course-homepages/2722-615-654-quantum-mechanics" target="_blank">Programme</a>-->
-        <!--        </p>-->
-        <p>
-            <em>MSc (Distinction) in Digital Signal Processing (2005-2006)</em>
-            <img src="img/queen.png" class="left" width="230px"/>
-            <br>  <i>M.S Thesis (18, 000 words), A phase-only correlation based iris recognition system. </i>
-            <br>
-            <BR>&#9758; <a href="http://eecs.qmul.ac.uk/" target="_blank">Programme</a>
-        </p>
-        <br>
-
-        <br>
-    </div>
-
-    <div id="Pubs" class="tabcontent">
-        <br>
-<!--        <p>&#9758;&nbsp;See my <a href="https://scholar.google.com/citations?hl=en&amp;user=7-LN-vIAAAAJ" target="_blank">Google Scholar</a> profile for citation metrics.</p>-->
-        <br>
-        <p>
-            Shlomo Kashani (2020)
-            <img src="img/droput2-ans.png" class="left" width="220px"/>
-            <br><em>Deep Learning Interviews book: Hundreds of fully solved job interview questions from a wide range of key topics in AI.</em>
-            <br><i>On Amazon ISBN 13: 978-1-9162435-4-5</i>
-            <br><i>URL(PDF): <a href="https://github.com/BoltzmannEntropy/interviews.ai"> download</a></i>
-            <br><small><span class="abstract" onclick="displayAbstract(0)">Abstract</span>&emsp;&emsp;<a href="https://www.amazon.com/Deep-Learning-Interviews-interview-questions/dp/1916243568/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=" target="_blank">Book</a>&emsp;&emsp;</small>
-        <p class="abstract_content" style="display:none;">The second edition of Deep Learning Interviews (The Amazon Softcover is printed in B&W) is home to hundreds of fully-solved problems, from a wide range of key topics in AI. It is designed to both rehearse interview or exam specific topics and provide machine learning M.Sc./Ph.D. students, and those awaiting an interview a well-organized overview of the field. The problems it poses are tough enough to cut your teeth on and to dramatically improve your skills-but they’re framed within thought-provoking questions and engaging stories.
-        That is what makes the volume so specifically valuable to students and job seekers: it provides them with the ability to speak confidently and quickly on any relevant topic, to answer technical questions clearly and correctly, and to fully understand the purpose and meaning of interview questions and answers. Those are powerful, indispensable advantages to have when walking into the interview room.
-        The book’s contents is a large inventory of numerous topics relevant to DL job interviews and graduate level exams. That places this work at the forefront of the growing trend in science to teach a core set of practical mathematical and computational skills. It is widely accepted that the training of every computer scientist must include the fundamental theorems of ML, and AI appears in the curriculum of nearly every university. This volume is designed as an excellent reference for graduates of such programs.
-        </p>
-        <br>
-        <br>
-        <br>
-        <p>
-            Or Katz, Dan Presil, Liz Cohen, Yael Schwartzbard, Sarah Hoch, Shlomo Kashani (2019)
-            <img src="img/lungs.png" class="left" width="220px"/>
-            <br><em>Pulmonary-Nodule Detection Using an Ensemble of 3D SE-ResNet18 and DPN68 Models.</em>
-            <br><i>Image Analysis and Recognition (pp.378-385) </i>, DOI: 10.1007/978-3-030-50516-5_33
-            <br><i>17th International Conference on Image Analysis and Recognition ICIAR 2020 </i>
-            <br><small><span class="abstract" onclick="displayAbstract(1)">Abstract</span>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Article</a>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Preprint</a></small>
-        <p class="abstract_content" style="display:none;">This short paper describes our contribution to the LNDb - Grand Challenge on automatic lung cancer patient management. We only participated in Sub-Challenge A: Nodule Detection. The officially stated goal of this challenge is From chest CT scans, participants must detect pulmonary nodules. We developed a computer-aided detection (CAD) system for the identification of small pulmonary nodules in screening CT scans. The two main modules of our system consist of a CNN based nodule candidate detection, and a neural classifier for false positive reduction. The preliminary results obtained on the challenge database is discussed. In this work, we developed an Ensemble learning pipeline using state of the art convolutional neural networks (CNNs) as base detectors. In particular, we utilize the 3D versions of SE-ResNet18 and DPN68. Much like classical bagging, base learners were trained on 10 stratified data-set folds (the LUNA16 patient-level dataset splits) generated by bootstrapping both our training set (LUNA16) and the challenge provided training set.
-        </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>
-            Shlomo Kashani (2006)
-            <img src="img/iris002.png" class="left" width="220px"/>
-            <br><em>A phase-only correlation based iris recognition system.</em>
-            <br><i>Department of Electronic Engineering, University of London, 2006.</i>
-            <br><small><span class="abstract" onclick="displayAbstract(2)">Abstract</span>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Article</a>&emsp;&emsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-50516-5_33" target="_blank">Preprint</a></small>
-        <p class="abstract_content" style="display:none;">Researched and implemented an iris recognition system based on the phase-only correlation algorithm in MATLAB and C++.
-        Algorithms realized included Gabor Wavelet, Circular Hough Transform, optimized Gaussian filters, cross-phase correlator and the Canny Edge detector.
-        (received distinction for my work on iris recognition).
-        </p>
-        <br>
-        <br>
-        <br>
-        <br>
-
-    </div>
-        
-<!-------------------------------PRESENTATIONS TAB----------------------------->
-    <div id="Quant" class="tabcontent">
-        <h2><em>The emergence of higher education programmes in quantum computing</em></h2>
-        <p>
-        To meet the expected future demand for highly-trained professionals in quantum science and technology, dozens of universities worldwide had establishing Masters of Quantum Science and programs.<br><br>
-        Those study programs go significantly beyond the standard curriculum of quantum mechanics since the concepts of quantum information processing, quantum algorithms, and programming are also of central importance.<br>
-            Owing to the complexity of the field, the study programs appeal to students from both physics and chemistry or mathematics and computer science backgrounds.<br>
-        It is obvious however, for instance from the myriad of existing quantum compilers (QisKIt,Quipper, ScaffCC , Quil/PyQuil,, Q |SIi, Q#, Strawberry Fields to name just a few) that a quantum physicist will have to study Python and that a computer scientist (or a data scientist) will have to study quantum mechanics and statistical physics.
-        </p>
-    </div>
+<!--      <div class="col-md-1">-->
+<!--      </div>-->
+<!--      <div class="col-md-10">-->
+<!--      &lt;!&ndash; START SECTION 2 CONTENT &ndash;&gt;-->
+<!--        <h1>The Gradients</h1>-->
+<!--      <p class="lead">74 gradients to choose from, hand-picked from the <a href="https://uigradients.com">uiGradients collection</a>.</p>-->
+<!--      <p>Here's a list of all the gradients and their class names. To change a section's gradient, replace its <b>last class</b> with the gradient class of your choice - <br>ie. <code>&lt;div class="col-md-12 section <b>aubergine</b>" id="section2"&gt;</code></p>-->
+<!--      <p>Hover your mouse over each gradient to see what it looks like inverted. Want to use the inverted gradient? Simply add -inverse to the end of the gradient class name, <br>eg. <code>aubergine</code> becomes <code>aubergine<b>-inverse</b></code>.</p>-->
+<!--      </div>&lt;!&ndash;/row&ndash;&gt;-->
+      <!-- END SECTION 2 -->
 
 
-<!-------------------------------------------------JAVASCRIPT----------------->
-    <script>
-        // Open tab tabName after clicking on the relevant button.
-        function openTab(evt, tabName) {
-            var i, tabcontent, tablinks;
 
-            // Hide all tabs
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
 
-        // Deactivate all buttons
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
+      <!-- START SECTION 3 -->
+<!--      <div class="row">-->
+<!--      <div class="col-md-12 section innershadow frost" id="section3">-->
 
-        // Show current tab, and activate the button that opened it
-        document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        } 
+<!--      <div class="col-md-1">-->
+<!--      </div>-->
+<!--      <div class="col-md-10">-->
+<!--      &lt;!&ndash; START SECTION 3 CONTENT &ndash;&gt;-->
+<!--      <h1>The Theme</h1>-->
+<!--      <p class="lead">Make it your own! Be sure to read the README.md file to get started.</p>-->
 
-        // Click on default button
-        document.getElementById("defaultOpen").click();
-        
-        function displayAbstract(articleID) {
-            var button = document.getElementsByClassName("abstract");
-            var content = document.getElementsByClassName("abstract_content");
-            if (content[articleID].style.display == "none") {
-//                button[articleID].innerHTML = "Hide Abstract";
-                content[articleID].style.display = "block";
-            } else {
-//                button[articleID].innerHTML = "Show Abstract";
-                content[articleID].style.display = "none";
-            }
-        }
-    
-    </script>
+<!--      <div class="row">-->
+<!--      <div class="col-md-4 square">-->
+<!--      <i class="fa fa-paint-brush bigicon" aria-hidden="true"></i><h2>-->
+<!--      74 Gradients-->
+<!--      </h2>-->
+<!--      <p class="lead">Choose from 74 different gradients. Want to flip it? Add -inverse to the end of its class name.</p>-->
 
-</body>
+<!--      <p class="small">For example, change <code>purple-bliss</code> to <code>purple-bliss-inverse</code>.</p>-->
+<!--      </div>-->
+<!--      <div class="col-md-4 square">-->
+<!--      <i class="fa fa-font-awesome bigicon" aria-hidden="true"></i>-->
+<!--      <h2>Icons Included</h2>-->
+<!--      <p class="lead">Choose from 675 icons in Font Awesome 4.7.0</p>-->
+<!--      <p>View the complete list of icons <a href="http://fontawesome.io/icons/">here</a>.</p>-->
+<!--      </div>-->
+<!--      <div class="col-md-4 square">-->
+<!--      <i class="fa fa-mobile bigicon" aria-hidden="true"></i>-->
+<!--      <h2>100% Responsive</h2>-->
+<!--      <p class="lead">Built using Bootstrap 3, this template scales to look beatiful on any size display.</p>-->
+<!--      <p>Check the README.md document to see how to make your images responsive.</p>-->
+<!--      </div>-->
+<!--      </div>&lt;!&ndash;/row &ndash;&gt;-->
+
+
+<!--      <h3>Button Colours</h3>-->
+<!--      <p>Change the mouseover colour of each button using Bootstrap default colours - <code>default</code>, <code>primary</code>, <code>success</code>, <code>info</code>, <code>warning</code> or <code>danger</code>.</p>-->
+
+<!--      <a class="btn btn-default btn-lg bigger-btn btn-trans" href="#">Default</a> -->
+<!--      <a class="btn btn-primary btn-lg bigger-btn btn-trans" href="#">Primary</a> -->
+<!--      <a class="btn btn-success btn-lg bigger-btn btn-trans" href="#">Success</a> -->
+<!--      <a class="btn btn-info btn-lg bigger-btn btn-trans" href="#">Info</a> -->
+<!--      <a class="btn btn-warning btn-lg bigger-btn btn-trans" href="#">Warning</a> -->
+<!--      <a class="btn btn-danger btn-lg bigger-btn btn-trans" href="#">Danger</a> -->
+
+<!--      <h3>Bootstrap Alerts</h3>-->
+<!--      <p>Use Bootstrap Alerts to draw the user's attention to an important message.</p>-->
+<!--      <div class="alert alert-success" role="alert"> <strong>Well done!</strong> You successfully read this important alert message. </div> <div class="alert alert-info" role="alert"> <strong>Heads up!</strong> This alert needs your attention, but it's not super important. </div> <div class="alert alert-warning" role="alert"> <strong>Warning!</strong> Better check yourself, you're not looking too good. </div> <div class="alert alert-danger" role="alert"> <strong>Oh snap!</strong> Change a few things up and try submitting again. </div>-->
+
+<!--      <h3>All the Icons!</h3>-->
+<!--      <p>OnePagers Gradient theme comes with <a href="http://fontawesome.io">Fontawesome 4.7.0</a> by Dave Gandy.</p>-->
+
+<!--      <p>Use any  icons from the <a href="http://fontawesome.io/icons/">complete set of 675 icons</a> - go wild! <i class="fa fa-id-card-o" aria-hidden="true"></i> <i class="fa fa-thermometer-three-quarters" aria-hidden="true"></i> <i class="fa fa-telegram" aria-hidden="true"></i> <i class="fa fa-handshake-o" aria-hidden="true"></i> <i class="fa fa-beer" aria-hidden="true"></i> <i class="fa fa-cogs" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-heartbeat" aria-hidden="true"></i> <i class="fa fa-firefox" aria-hidden="true"></i> <i class="fa fa-chrome" aria-hidden="true"></i> <i class="fa fa-industry" aria-hidden="true"></i> <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <i class="fa fa-bug" aria-hidden="true"></i> <i class="fa fa-user-secret" aria-hidden="true"></i> -->
+
+<!--      <p>It's as simple as including <code>&lt;i class="fa fa-<b>cogs</b>" aria-hidden="true"&gt;&lt;/i&gt;</code>.</p>-->
+
+<!--      &lt;!&ndash; END SECTION 3 CONTENT &ndash;&gt;-->
+<!--      </div>-->
+<!--      <div class="col-md-1">-->
+<!--      </div>-->
+<!--      </div>&lt;!&ndash;/md-12 &ndash;&gt;-->
+<!--      </div>&lt;!&ndash;/row&ndash;&gt;-->
+      <!-- END SECTION 3 -->
+
+      <!-- START SECTION 4 -->
+<!--      <div class="row">-->
+<!--      <div class="col-md-12 section deep-space" id="section4">-->
+
+<!--      <div class="col-md-1">-->
+<!--      </div>-->
+<!--      <div class="col-md-10">-->
+<!--      &lt;!&ndash; START SECTION 4 CONTENT &ndash;&gt;-->
+<!--      <h1>Contact Us</h1>-->
+<!--      <p class="lead">This is where you'll put some information about your company.</p>-->
+
+<!--      <p class="lead">The section below is split into 2 separate components - you can put your contact details on the left hand side, and a contact form on the right hand side - or anything you choose. Sweet!</p>-->
+
+<!--      <p>Make sure you replace the contact form with your own! For instructions, see the README.md document.</p>-->
+
+<!--      <div class="row">-->
+<!--      <div class="col-md-6 contact-left">-->
+<!--        &lt;!&ndash; START CONTACT DETAILS &ndash;&gt;-->
+<!--        <p><b>Get In Touch</b></p>-->
+<!--        <p>Phone: 02 9876 5432<br>-->
+<!--        Fax: 02 3456 7890</p>-->
+<!--        <p><b>123 Fake St</b><br>-->
+<!--        Sydney NSW 2000</p>-->
+
+<!--        <p>Or use the Contact Form to the right... yes, this is a <b>live contact form</b> - your message will be sent to the theme developer</p>-->
+
+<!--        <p class="small">Make sure you replace this contact form with your own! We recommend using the free <a href="https://formspree.io/">formspree.io</a> service.</p>-->
+
+<!--        <p class="small">Want to <i class="fa fa-bug" aria-hidden="true"></i> Report a Bug in this template? Visit us on <a href="https://github.com/haydenryan/OnePagers-gradient/issues">github</a>.-->
+<!--        &lt;!&ndash; END CONTACT DETAILS &ndash;&gt;-->
+<!--      </div>-->
+<!--      <div class="col-md-6 contact-right">-->
+<!--        &lt;!&ndash; START CONTACT FORM &ndash;&gt;-->
+<!--        <form action="https://formspree.io/&#104;&#097;&#121;&#100;&#101;&#110;&#064;&#103;&#101;&#110;&#110;&#101;&#120;&#116;&#046;&#110;&#101;&#116;&#046;&#097;&#117;"-->
+<!--              method="POST">-->
+<!--          <div class="form-group">-->
+<!--            <label>Your Email</label>-->
+<!--            <input type="email" class="form-control input-lg" name="_replyto" placeholder="Email" required>-->
+<!--          </div>-->
+<!--          <div class="form-group">-->
+<!--            <label>Subject</label>-->
+<!--            <input type="text" class="form-control input-lg" name="subject" placeholder="Subject">-->
+<!--          </div>-->
+<!--          <div class="form-group">-->
+<!--            <label>Message</label>-->
+<!--            <textarea class="form-control input-lg" rows="5" cols="10" placeholder="Message" name="message" required></textarea>-->
+<!--          </div>-->
+<!--          <button type="submit" class="btn btn-success btn-lg btn-trans" value="Send">Submit</button>-->
+<!--        </form>-->
+<!--        &lt;!&ndash;END CONTACT FORM&ndash;&gt;-->
+<!--      </div>-->
+<!--      </div> &lt;!&ndash; /row &ndash;&gt;-->
+<!--      &lt;!&ndash; END SECTION 4 CONTENT &ndash;&gt;-->
+<!--      </div>-->
+<!--      <div class="col-md-1">-->
+<!--      </div>-->
+<!--      </div>&lt;!&ndash;/md-12 &ndash;&gt;-->
+<!--      </div>&lt;!&ndash;/row&ndash;&gt;-->
+<!--      &lt;!&ndash;END SECTION 4 &ndash;&gt;-->
+
+<!--      <div class="row">-->
+<!--      <div class="col-md-12 footer">-->
+<!--      &lt;!&ndash; You are free to remove the link back to my website, however you should consider donating to the project on Github :) &ndash;&gt;-->
+<!--      Copyright &copy; 2017 <a href="#">Your Company</a> | <a href="https://haydenryan.github.io/OnePagers-gradient/">Gradient template</a> by <a href="http://gennext.net.au">Hayden Ryan</a>-->
+<!--      </div>-->
+<!--      </div>-->
+
+    </div><!--/container final closing tag-->
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="./js/bootstrap.min.js"></script>
+      <script>
+
+        $(function () {
+          $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > 200);
+          });
+        });
+
+        $('body').scrollspy({ target: '#topnav' })
+
+        // DELETE THIS SECTION START
+        // DEMO GRADIENTS
+        $('.demowell').hover(
+           function(){ $(this).addClass('gradient-inverse') },
+           function(){ $(this).removeClass('gradient-inverse') }
+        )
+        //DELETE THIS SECTION END
+
+      </script>
+  </body>
 </html>
