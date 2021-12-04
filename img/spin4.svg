@@ -121,35 +121,35 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:19.7556px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.280093;"
-       x="23.268616"
-       y="78.293495"
+       style="font-style:normal;font-weight:normal;font-size:16.966px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.240542"
+       x="21.043203"
+       y="66.03064"
        id="text63"
-       transform="scale(1.1688094,0.8555715)"><tspan
+       transform="scale(1.0037649,0.99624918)"><tspan
          sodipodi:role="line"
          id="tspan61"
-         x="23.268616"
-         y="78.293495"
-         style="font-size:19.7556px;fill:#666666;stroke-width:0.280093;"><tspan
-           style="fill:#666666;"
+         x="21.043203"
+         y="66.03064"
+         style="font-size:16.966px;fill:#666666;stroke-width:0.240542"><tspan
+           style="fill:#666666;stroke-width:0.240542"
            id="tspan681">QUANT</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:19.7556px;line-height:1.25;font-family:sans-serif;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.280093"
-       x="23.84177"
-       y="102.26315"
+       style="font-style:normal;font-weight:normal;font-size:20.1896px;line-height:1.25;font-family:sans-serif;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.286246"
+       x="18.586933"
+       y="101.42645"
        id="text63-1"
-       transform="scale(1.1688094,0.85557149)"><tspan
+       transform="scale(1.2071521,0.82839603)"><tspan
          sodipodi:role="line"
          id="tspan61-8"
-         x="23.84177"
-         y="102.26315"
-         style="font-size:19.7556px;fill:#cccccc;stroke-width:0.280093">SPIN<tspan
-   style="fill:#cccccc;stroke-width:0.280093"
+         x="18.586933"
+         y="101.42645"
+         style="font-size:20.1896px;fill:#cccccc;stroke-width:0.286246">SPIN<tspan
+   style="fill:#cccccc;stroke-width:0.286246"
    id="tspan681-0" /></tspan></text>
     <image
-       width="39.116035"
-       height="51.131462"
+       width="42.991444"
+       height="54.873234"
        preserveAspectRatio="none"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAPoCAYAAADHhdjJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
 bWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
@@ -5545,8 +5545,8 @@ AAAAAIBQBgAAAAAAAEIZAAAAAAAACGUAAAAAAAAglAEAAAAAAIBQBgAAAAAAAEIZAAAAAAAACGUA
 AAAAAAAglAEAAAAAAIBQBgAAAAAA4HeR/1+AAQC4G/U3etk2WwAAAABJRU5ErkJggg==
 "
        id="image889"
-       x="66.388184"
-       y="-134.12154"
+       x="55.275673"
+       y="-130.98419"
        transform="rotate(90)" />
   </g>
 </svg>
