@@ -100,8 +100,8 @@
      showgrid="false"
      inkscape:window-width="2416"
      inkscape:window-height="1862"
-     inkscape:window-x="420"
-     inkscape:window-y="61"
+     inkscape:window-x="1587"
+     inkscape:window-y="328"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata50">
@@ -121,7 +121,7 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:19.7556px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.280093;"
+       style="font-style:normal;font-weight:normal;font-size:19.7556px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.280093;"
        x="23.268616"
        y="78.293495"
        id="text63"
@@ -130,8 +130,8 @@
          id="tspan61"
          x="23.268616"
          y="78.293495"
-         style="font-size:19.7556px;fill:#ffffff;stroke-width:0.280093;"><tspan
-           style="fill:#ffffff;"
+         style="font-size:19.7556px;fill:#666666;stroke-width:0.280093;"><tspan
+           style="fill:#666666;"
            id="tspan681">QUANT</tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -148,8 +148,8 @@
    style="fill:#cccccc;stroke-width:0.280093"
    id="tspan681-0" /></tspan></text>
     <image
-       width="19.738995"
-       height="26.809935"
+       width="39.116035"
+       height="51.131462"
        preserveAspectRatio="none"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAPoCAYAAADHhdjJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
 bWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
@@ -5545,8 +5545,8 @@ AAAAAIBQBgAAAAAAAEIZAAAAAAAACGUAAAAAAAAglAEAAAAAAIBQBgAAAAAAAEIZAAAAAAAACGUA
 AAAAAAAglAEAAAAAAIBQBgAAAAAA4HeR/1+AAQC4G/U3etk2WwAAAABJRU5ErkJggg==
 "
        id="image889"
-       x="69.461784"
-       y="-111.40361"
+       x="66.388184"
+       y="-134.12154"
        transform="rotate(90)" />
   </g>
 </svg>
