@@ -121,7 +121,7 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.7252px;line-height:1.25;font-family:sans-serif;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.265484"
+       style="font-style:normal;font-weight:normal;font-size:18.7252px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.265484;"
        x="20.313679"
        y="72.225822"
        id="text63-1"
@@ -130,12 +130,12 @@
          id="tspan61-8"
          x="20.313679"
          y="72.225822"
-         style="font-size:18.7252px;fill:#cccccc;stroke-width:0.265484">SPIN<tspan
-   style="fill:#cccccc;stroke-width:0.265484"
+         style="font-size:18.7252px;fill:#ffffff;stroke-width:0.265484;">SPIN<tspan
+   style="fill:#ffffff;stroke-width:0.265484;"
    id="tspan681-0" /></tspan></text>
     <image
        width="26.287098"
-       height="57.412296"
+       height="53.47007"
        preserveAspectRatio="none"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAPoCAYAAADHhdjJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
 bWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
@@ -5531,7 +5531,7 @@ AAAAAIBQBgAAAAAAAEIZAAAAAAAACGUAAAAAAAAglAEAAAAAAIBQBgAAAAAAAEIZAAAAAAAACGUA
 AAAAAAAglAEAAAAAAIBQBgAAAAAA4HeR/1+AAQC4G/U3etk2WwAAAABJRU5ErkJggg==
 "
        id="image889"
-       x="64.162392"
+       x="65.749893"
        y="-77.329842"
        transform="rotate(90)" />
   </g>
