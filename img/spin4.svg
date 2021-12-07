@@ -121,35 +121,21 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.966px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.240542"
-       x="21.043203"
-       y="66.03064"
-       id="text63"
-       transform="scale(1.0037649,0.99624918)"><tspan
-         sodipodi:role="line"
-         id="tspan61"
-         x="21.043203"
-         y="66.03064"
-         style="font-size:16.966px;fill:#666666;stroke-width:0.240542"><tspan
-           style="fill:#666666;stroke-width:0.240542"
-           id="tspan681">QUANT</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:20.1896px;line-height:1.25;font-family:sans-serif;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.286246"
-       x="17.271852"
-       y="101.42645"
+       style="font-style:normal;font-weight:normal;font-size:18.7252px;line-height:1.25;font-family:sans-serif;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.265484"
+       x="20.313679"
+       y="72.225822"
        id="text63-1"
-       transform="scale(1.2071521,0.82839603)"><tspan
+       transform="scale(1.1195963,0.89317905)"><tspan
          sodipodi:role="line"
          id="tspan61-8"
-         x="17.271852"
-         y="101.42645"
-         style="font-size:20.1896px;fill:#cccccc;stroke-width:0.286246">SPIN<tspan
-   style="fill:#cccccc;stroke-width:0.286246"
+         x="20.313679"
+         y="72.225822"
+         style="font-size:18.7252px;fill:#cccccc;stroke-width:0.265484">SPIN<tspan
+   style="fill:#cccccc;stroke-width:0.265484"
    id="tspan681-0" /></tspan></text>
     <image
-       width="42.991444"
-       height="54.873234"
+       width="26.287098"
+       height="57.412296"
        preserveAspectRatio="none"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsoAAAPoCAYAAADHhdjJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
 bWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
@@ -5545,8 +5531,8 @@ AAAAAIBQBgAAAAAAAEIZAAAAAAAACGUAAAAAAAAglAEAAAAAAIBQBgAAAAAAAEIZAAAAAAAACGUA
 AAAAAAAglAEAAAAAAIBQBgAAAAAA4HeR/1+AAQC4G/U3etk2WwAAAABJRU5ErkJggg==
 "
        id="image889"
-       x="55.275673"
-       y="-130.98419"
+       x="64.162392"
+       y="-77.329842"
        transform="rotate(90)" />
   </g>
 </svg>
