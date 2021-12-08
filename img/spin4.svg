@@ -91,15 +91,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
+     inkscape:zoom="0.98994949"
      inkscape:cx="121.65367"
-     inkscape:cy="355.09792"
+     inkscape:cy="276.58648"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="2416"
-     inkscape:window-height="1862"
+     inkscape:window-width="2756"
+     inkscape:window-height="1843"
      inkscape:window-x="746"
      inkscape:window-y="91"
      inkscape:window-maximized="0" />
@@ -121,21 +121,21 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.7252px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.265484"
-       x="20.313679"
-       y="72.818275"
+       style="font-style:normal;font-weight:normal;font-size:73.5522px;line-height:1.25;font-family:sans-serif;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.04282"
+       x="13.761713"
+       y="75.485489"
        id="text63-1"
-       transform="scale(1.1195963,0.89317908)"><tspan
+       transform="scale(0.99612169,1.0038934)"><tspan
          sodipodi:role="line"
          id="tspan61-8"
-         x="20.313679"
-         y="72.818275"
-         style="font-size:18.7252px;fill:#666666;stroke-width:0.265484">SPIN<tspan
-   style="fill:#666666;stroke-width:0.265484"
+         x="13.761713"
+         y="75.485489"
+         style="font-size:73.5522px;fill:#f2f2f2;stroke-width:1.04282">SPIN<tspan
+   style="fill:#f2f2f2;stroke-width:1.04282"
    id="tspan681-0" /></tspan></text>
     <image
-       width="49.9991"
-       height="31.009359"
+       width="174.81396"
+       height="98.094009"
        preserveAspectRatio="none"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNEAAALiCAYAAAD3kkBHAAAAAXNSR0IArs4c6QAAIABJREFUeF7s
 nQnYbWPZx3/Peo95rsxDZWgglU8oaaCUMmRKZPpSCkmGkopCaFJUQhQKEZGiiBK+VEJpMGQeM8+c
@@ -2349,7 +2349,7 @@ ELCI1pGN8DJMwARMwARMwARMwARMwARMwARMwARMwAS6S8AiWnf3xiszARMwARMwARMwARMwARMw
 ARMwARMwARPoCIH/A0Sg4L7xBjarAAAAAElFTkSuQmCC
 "
        id="image1066"
-       x="23.764452"
-       y="66.75396" />
+       x="19.531115"
+       y="81.041473" />
   </g>
 </svg>
